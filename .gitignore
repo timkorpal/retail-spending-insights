@@ -1,0 +1,12 @@
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend
+node_modules/
+dist/

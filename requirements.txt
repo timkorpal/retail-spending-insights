@@ -1,0 +1,19 @@
+# API and development server
+fastapi
+uvicorn[standard]
+
+# PostgreSQL and database migrations
+sqlalchemy
+psycopg[binary]
+alembic
+
+# Request validation, environment variables, and CSV uploads
+pydantic
+python-dotenv
+python-multipart
+
+# Tests and API test client
+pytest
+httpx
+
+# CSV parsing and decimal arithmetic use Python's standard library.

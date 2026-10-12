@@ -1,0 +1,112 @@
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+h2 {
+  margin-top: 32px;
+  font-size: 1.25rem;
+}
+
+.description,
+.data-note {
+  color: #a9b6c8;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 28px 0;
+}
+
+.controls label {
+  font-weight: 600;
+}
+
+.controls select {
+  min-width: 200px;
+  padding: 10px 12px;
+  border: 1px solid #52627a;
+  border-radius: 6px;
+  background: #192536;
+  color: #f1f5f9;
+  font: inherit;
+}
+
+.controls select:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 3px;
+}
+
+.controls select:disabled {
+  opacity: 0.6;
+}
+
+.table-container {
+  overflow-x: auto;
+  border: 1px solid #344256;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  padding: 14px;
+  color: #a9b6c8;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+thead {
+  background: #243348;
+}
+
+th,
+td {
+  padding: 14px;
+  border-bottom: 1px solid #344256;
+  text-align: right;
+  white-space: nowrap;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+tbody th {
+  font-weight: normal;
+}
+
+tbody tr:hover {
+  background: #1c2b3e;
+}
+
+tbody tr:last-child th,
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.error {
+  padding: 12px;
+  border: 1px solid #f87171;
+  border-radius: 6px;
+  color: #fecaca;
+  background: #451a1a;
+}
+
+.data-note {
+  margin-top: 24px;
+  font-size: 0.9rem;
+}
